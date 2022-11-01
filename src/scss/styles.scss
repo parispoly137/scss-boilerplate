@@ -1,4 +1,9 @@
-@import "_reset.scss";
+// tools
+@import "tools/reset";
+@import "tools/variables";
+@import "tools/mixins";
+
+// code
 
 body {
   background: peru;
