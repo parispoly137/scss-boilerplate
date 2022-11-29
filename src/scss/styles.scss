@@ -2,12 +2,23 @@
 @import "tools/reset";
 @import "tools/variables";
 @import "tools/mixins";
+@import "tools/fonts";
 
 // code
 
 body {
-  background: peru;
-  a {
-    color: blue;
+  font-family: "SCoreDream";
+
+  //test
+
+  background-color: wheat;
+
+  @include mobile {
+    background-color: violet;
   }
+}
+
+* {
+  color: white;
+  box-sizing: border-box;
 }
